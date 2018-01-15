@@ -1,13 +1,28 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+   <one-header/>
+    <one-menu/>
+    <div class="main">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
+import oneHeader from "./components/header.vue"
+import oneMenu from "./components/menu.vue"
 export default {
-  name: 'App'
+  name: 'App',
+  data:function(){
+    return {show:true}
+  },
+  components:{
+    oneHeader,
+    oneMenu
+  },
+  methods:{
+    
+  }
 }
 </script>
 

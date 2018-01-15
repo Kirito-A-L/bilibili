@@ -1,6 +1,6 @@
 <template>
      <div class="header">
-      
+      欢迎来到ONE
      </div>
 </template>
 <script>
