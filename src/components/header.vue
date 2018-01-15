@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
- name: "header",
+
  data:function(){
      return {data:"this is header"}
  }

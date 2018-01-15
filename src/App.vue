@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   <one-header/>
+    <one-header/>
     <one-menu/>
     <div class="main">
       <router-view/>
@@ -9,16 +9,17 @@
 </template>
 
 <script>
-import oneHeader from "./components/header.vue"
-import oneMenu from "./components/menu.vue"
+import OneHeader from "./components/Header.vue"
+import OneMenu from "./components/Menu.vue"
 export default {
   name: 'App',
   data:function(){
     return {show:true}
   },
   components:{
-    oneHeader,
-    oneMenu
+    OneHeader,
+    OneMenu
+   
   },
   methods:{
     
