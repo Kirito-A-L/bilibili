@@ -1,6 +1,6 @@
 <template>
      <div class="loading">
-      
+         <img class="loding-img" src="/static/images/ajax-loader.gif">
      </div>
 </template>
 <script>
