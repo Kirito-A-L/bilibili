@@ -1,22 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Header from '@/components/Header.vue'
-// import Menu from '@/components/Menu.vue'
+import VueResource from 'vue-resource'
+
+var home = require("../pages/home.vue")
+
+var routes = [
+  {path:"/",component:home},
+];
 
 
 Vue.use(Router)
+Vue.use(VueResource);
 
 export default new Router({
-  routes: [
-    // {
-    //   path: '/',
-    //   name: 'header',
-    //   component: Header
-    // },
-    // {
-    //   path: '/Menu',
-    //   name: 'menu',
-    //   component: Menu
-    // }
-  ]
+  routes
 })

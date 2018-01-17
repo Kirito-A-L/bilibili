@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <one-header/>
-    <one-menu/>
+    <OneHeader/>
+    <OneMenu/>
     <div class="main">
       <router-view/>
     </div>
@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import OneHeader from "./components/Header.vue"
-import OneMenu from "./components/Menu.vue"
+import OneHeader from "@/components/Header.vue"
+import OneMenu from "@/components/Menu.vue"
 export default {
   name: 'App',
   data:function(){
@@ -29,12 +29,4 @@ export default {
 }
 </script>
 
-<style>
-/* #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-} */
-</style>
+
